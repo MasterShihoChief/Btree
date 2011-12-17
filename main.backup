@@ -1,0 +1,205 @@
+#include <iostream>
+
+#include <fstream>
+#include <stdio.h>
+#include <stdlib.h>
+#include <sstream>
+
+#include <string.h>
+#include <vector>
+
+#include "B_tree.h"
+#include "util.h"
+using namespace std;
+
+int main(int argc, char *argv[])
+{
+cout<< "B+_TREE MAIN, by Joshua Hunter"<<endl;
+cout<<"Supreme Commander MasterShihoChief"<<endl;
+cout<<"Covenant Battle Net High Command"<<endl;
+cout<<"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"<<endl;
+cout<<"@@.................................................................................................................................................. C"<<endl;
+cout<<"@@                                                                                                                o:                                 C"<<endl;
+cout<<"@@                                                                                                               o88:                                C"<<endl;
+cout<<"@@                                                                                                              :8OOOc:.                             C"<<endl;
+cout<<"@@                                                                                                        :8O88OOOOOOOOO88c                          C"<<endl;
+cout<<"@@                                                                                                          :COOOOOOOOOO.                            C"<<endl;
+cout<<"@@                                                                                                            COOOOOOO8.                             C"<<endl;
+cout<<"@@                                                                                                            OOO8OOOO8c                             C"<<endl;
+cout<<"@@                                          .:::::::::::::::::.                                              :C.     :oO                             C"<<endl;
+cout<<"@@                                        .::::::::::::::::::::::                                                                                    C"<<endl;
+cout<<"@@                                       :::::::::::::::::::::::::                                                                                   C"<<endl;
+cout<<"@@                                        :::::::::::::::::::::::.                                                                                   C"<<endl;
+cout<<"@@                                          :::::::::::::::::::.                                                                                     C"<<endl;
+cout<<"@@                                               ..::::::..                                                                                          C"<<endl;
+cout<<"@@                              ..::::::::::::::::::::..                                                                                             C"<<endl;
+cout<<"@@                        .::::::::::::::::::::::::::::::::::.                                                                                       C"<<endl;
+cout<<"@@                     .::::::::::::::::::::::::::::::::::::::::                                                                                     C"<<endl;
+cout<<"@@                    ::::::::::::::::::::::::::::::::::::::::::::                                                                                   C"<<endl;
+cout<<"@@                    ::::::::::::::::::::::::::::::::::::::::::::                                                                                   C"<<endl;
+cout<<"@@                     :::::::::::::::::::::::::::::::::::::::::.                                                                                    C"<<endl;
+cout<<"@@                        .:::::::::::::::::::::::::::::::::.                                                                                        C"<<endl;
+cout<<"@@                              ...::::::::::::::::::..                                                                                              C"<<endl;
+cout<<"@@                                                ........                                                                                           C"<<endl;
+cout<<"@@                                          :::::::::::::::::::.                                                                                     C"<<endl;
+cout<<"@@                                       .:::::::::::::::::::::::.                                                                                   C"<<endl;
+cout<<"@@                                       :::::::::::::::::::::::::                                                                                   C"<<endl;
+cout<<"@@                                        .::::::::::::::::::::::                                                                                    C"<<endl;
+cout<<"@@                                          ..::::::::::::::::.                                                                                      C"<<endl;
+cout<<"@@                                                                                                                                                   C"<<endl;
+cout<<"@@                                                                                                                                                   C"<<endl;
+cout<<"@@                                                                                                                                                   C"<<endl;
+cout<<"@@                                                                                                                                                   C"<<endl;
+cout<<"@@                                                                                                                                                   C"<<endl;
+cout<<"@@                                                                                                                                                   C"<<endl;
+cout<<"@@                                                                                                                                                   C"<<endl;
+cout<<"@@                                                                                                                                                   C"<<endl;
+cout<<"@@                                                                                                                                                   C"<<endl;
+cout<<"@@                                                                                                                                                   C"<<endl;
+cout<<"@@                    o:                                                                                                                             C"<<endl;
+cout<<"@@                   o8Oo                                                                                                                            C"<<endl;
+cout<<"@@                 .C8OO8c                                                                                                                           C"<<endl;
+cout<<"@@            .C8OOOOOOOOOOOO8C                                                                                                                      C"<<endl;
+cout<<"@@               oOOOOOOOOOOc                                                                                                                        C"<<endl;
+cout<<"@@                c8OOOOOO8c                                                                                                                         C"<<endl;
+cout<<"@@               .CO8OOOOO8C                                                                                                                         C"<<endl;
+cout<<"@@               cC:      oO.                                                                                                                        C"<<endl;
+cout<<"@@...................................................................................................................................................C"<<endl;
+int srcTerm =0;
+int srcTerm2 =0;
+char command;
+B_tree<int,3> Btree3;
+B_tree<int,7> Btree7;
+bool errorCode;
+if(argc !=3)	//Invalid number of args
+	{
+		cerr << "Error: invalid number of arguments. Proper use is avlmain <inputfile> <outputfile>" << endl;
+		exit(1);//error
+	}
+else	
+	{
+	
+		ifstream ifile(argv[1], ios::in);
+			if(!ifile)
+		{
+			cerr << "Error: could not open input file <" << argv[1] << ">" << endl;
+        	exit(1); // error
+		}	
+		ofstream ofile(argv[2], ios::out);
+			if(!ofile)
+				{
+				cerr << "Error: could not open input file <" << argv[2] << ">" << endl;
+				exit(1); // error
+				}
+	
+while(ifile)
+	{
+		//read in command and number
+		ifile>>command;
+		
+		if(command == 'A')
+			{
+			//cout<<"insert command recieved"<<endl;
+			ifile>>srcTerm;
+			//cout<<srcTerm<<endl;
+			cout<<"attempting to insert"<<endl;
+			errorCode=Btree3.insert(srcTerm);
+				if(errorCode==success)
+					ofile<<"Success: " <<srcTerm<< " was inserted into the tree"<<endl;
+				else
+					ofile << "Error: attempt to insert duplicate value of " << srcTerm << endl;
+			errorCode=Btree7.insert(srcTerm);
+			if(errorCode==success)
+					ofile<<"Success: " <<srcTerm<< " was inserted into the tree"<<endl;
+			else
+				ofile << "Error: attempt to insert duplicate value of " << srcTerm << endl;
+			}
+		else if(command =='D')
+			{
+			//cout<<"delete command recieved"<<endl;
+			ifile>>srcTerm;
+			//cout<<srcTerm<<endl;
+			errorCode=Btree3.remove(srcTerm);
+				if(errorCode==success)
+					ofile<<srcTerm<< " was deleted from the tree"<<endl;
+				else
+					ofile<<"Error: attempt to delete a value not found in the tree of "<< srcTerm<<endl;
+			errorCode=Btree7.remove(srcTerm);
+				if(errorCode==success)
+					ofile<<srcTerm<< " was deleted from the tree"<<endl;
+				else
+					ofile<<"Error: attempt to delete a value not found in the tree of "<< srcTerm<<endl;
+			}
+		else if(command =='S')
+			{
+			//cout<<"search command recieved"<<endl;
+			ifile.ignore(); //ignore space
+			ifile>>srcTerm;
+			ifile>>srcTerm2;
+			Btree3.search_tree(srcTerm,srcTerm2);
+			Btree7.search_tree(srcTerm,srcTerm2);
+			//cout<<srcTerm<<endl;
+			/*if(srcTerm2>srcTerm)
+				{
+				for(true;srcTerm<=srcTerm2;srcTerm++)
+					{
+					errorCode=Btree3.search_tree(srcTerm);
+						if(errorCode==success)
+							ofile<<"Success: "<< srcTerm<< " was found in the tree"<<endl;
+						else
+							ofile<<"Error: attempt to locate a value not found in the tree of "<< srcTerm<<endl;
+					errorCode=Btree7.search_tree(srcTerm);
+						if(errorCode==success)
+							ofile<<"Success: "<< srcTerm<< " was found in the tree"<<endl;
+						else
+							ofile<<"Error: attempt to locate a value not found in the tree of "<< srcTerm<<endl;
+					}
+				}
+			else if(srcTerm==srcTerm2)
+				{
+				errorCode=Btree3.search_tree(srcTerm);
+						if(errorCode==success)
+							ofile<<"Success: "<< srcTerm<< " was found in the tree"<<endl;
+						else
+							ofile<<"Error: attempt to locate a value not found in the tree of "<< srcTerm<<endl;
+				errorCode=Btree7.search_tree(srcTerm);
+						if(errorCode==success)
+							ofile<<"Success: "<< srcTerm<< " was found in the tree"<<endl;
+						else
+							ofile<<"Error: attempt to locate a value not found in the tree of "<< srcTerm<<endl;
+				}
+			else
+				{
+				errorCode=Btree3.search_tree(srcTerm);
+						if(errorCode==success)
+							ofile<<"Success: "<< srcTerm<< " was found in the tree"<<endl;
+						else
+							ofile<<"Error: attempt to locate a value not found in the tree of "<< srcTerm<<endl;
+				errorCode=Btree7.search_tree(srcTerm);
+						if(errorCode==success)
+							ofile<<"Success: "<< srcTerm<< " was found in the tree"<<endl;
+						else
+							ofile<<"Error: attempt to locate a value not found in the tree of "<< srcTerm<<endl;
+				errorCode=Btree3.search_tree(srcTerm2);
+						if(errorCode==success)
+							ofile<<"Success: "<< srcTerm<< " was found in the tree"<<endl;
+						else
+							ofile<<"Error: attempt to locate a value not found in the tree of "<< srcTerm<<endl;
+				errorCode=Btree7.search_tree(srcTerm2);
+						if(errorCode==success)
+							ofile<<"Success: "<< srcTerm<< " was found in the tree"<<endl;
+						else
+							ofile<<"Error: attempt to locate a value not found in the tree of "<< srcTerm<<endl;
+				}*/
+			}
+		else if(command =='P')
+			{
+			cout<<"print function not fully implemented yet, only prints for standard btree in preorder traversal"<<endl;
+			Btree3.print(ofile);
+			Btree7.print(ofile);
+			}
+	}
+	}
+	return 0;
+}
+

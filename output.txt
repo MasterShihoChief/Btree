@@ -1,0 +1,474 @@
+
+Success: 23 was inserted into the tree
+Success: 65 was inserted into the tree
+Success: 37 was inserted into the tree
+Success: 60 was inserted into the tree
+37,23,37,60,65,
+Success: 46 was inserted into the tree
+Success: 92 was inserted into the tree
+37,60,23,37,46,60,65,92,
+Success: 48 was inserted into the tree
+Success: 71 was inserted into the tree
+Success: 56 was inserted into the tree
+Success: 59 was inserted into the tree
+48,60,37,23,37,46,48,56,59,59,56,59,60,65,71,71,65,71,92,
+Success: 50 was inserted into the tree
+Success: 90 was inserted into the tree
+Success: 30 was inserted into the tree
+Success: 40 was inserted into the tree
+48,37,30,23,30,37,40,46,46,40,46,48,56,59,50,56,59,60,60,56,59,50,56,59,60,71,65,71,90,92,
+Error: attempt to delete a value not found in the tree of 98
+Success: 50 was removed from the tree
+Success: 56 was removed from the tree
+48,37,30,23,30,37,40,46,46,40,46,48,59,56,59,60,60,60,59,56,59,60,60,71,65,71,90,92,
+Success: 59 was removed from the tree
+Success: 40 was removed from the tree
+Success: 46 was removed from the tree
+Success: 48 was removed from the tree
+Success: 60 was removed from the tree
+Success: 23 was removed from the tree
+Success: 30 was removed from the tree
+Success: 37 was removed from the tree
+60,37,48,30,46,56,59,71,65,71,90,92,71,65,71,90,92,
+Success: 92 was removed from the tree
+60,37,48,30,46,56,59,71,65,71,90,71,65,71,90,
+Success: 90 was removed from the tree
+Success: 65 was removed from the tree
+Success: 71 was removed from the tree
+48,37,30,46,56,59,60,56,59,71,60,56,59,71,
+
+Success: 23 was inserted into the tree
+Success: 65 was inserted into the tree
+Success: 37 was inserted into the tree
+Success: 60 was inserted into the tree
+37,23,37,60,65,
+Success: 46 was inserted into the tree
+Success: 92 was inserted into the tree
+37,60,23,37,46,60,65,92,
+Success: 48 was inserted into the tree
+Success: 71 was inserted into the tree
+Success: 56 was inserted into the tree
+Success: 59 was inserted into the tree
+48,60,37,23,37,46,48,56,59,59,56,59,60,65,71,71,65,71,92,
+Success: 50 was inserted into the tree
+Success: 90 was inserted into the tree
+Success: 30 was inserted into the tree
+Success: 40 was inserted into the tree
+48,37,30,23,30,37,40,46,46,40,46,48,56,59,50,56,59,60,60,56,59,50,56,59,60,71,65,71,90,92,
+Error: attempt to delete a value not found in the tree of 98
+Success: 50 was removed from the tree
+Success: 56 was removed from the tree
+48,37,30,23,30,37,40,46,46,40,46,48,59,56,59,60,60,60,59,56,59,60,60,71,65,71,90,92,
+Success: 59 was removed from the tree
+Success: 40 was removed from the tree
+Success: 46 was removed from the tree
+Success: 48 was removed from the tree
+Success: 60 was removed from the tree
+Success: 23 was removed from the tree
+Success: 30 was removed from the tree
+Success: 37 was removed from the tree
+60,37,48,30,46,56,59,71,65,71,90,92,71,65,71,90,92,
+Success: 92 was removed from the tree
+60,37,48,30,46,56,59,71,65,71,90,71,65,71,90,
+Success: 90 was removed from the tree
+Success: 65 was removed from the tree
+Success: 71 was removed from the tree
+48,37,30,46,56,59,60,56,59,71,60,56,59,71,
+
+
+Success: 23 was inserted into the tree3
+Success: 23 was inserted into the tree7
+Success: 65 was inserted into the tree3
+Success: 65 was inserted into the tree7
+Success: 37 was inserted into the tree3
+Success: 37 was inserted into the tree7
+Success: 60 was inserted into the tree3
+Success: 60 was inserted into the tree7
+37,23,37,60,65,
+23,37,60,65,
+Success: 46 was inserted into the tree3
+Success: 46 was inserted into the tree7
+Success: 92 was inserted into the tree3
+Success: 92 was inserted into the tree7
+37,60,23,37,46,60,65,92,
+23,37,46,60,65,92,
+Success: 48 was inserted into the tree3
+Success: 48 was inserted into the tree7
+Success: 71 was inserted into the tree3
+Success: 71 was inserted into the tree7
+Success: 56 was inserted into the tree3
+Success: 56 was inserted into the tree7
+Success: 59 was inserted into the tree3
+Success: 59 was inserted into the tree7
+48,60,37,23,37,46,48,56,59,59,56,59,60,65,71,71,65,71,92,
+
+Success: 23 was inserted into the tree3
+Success: 23 was inserted into the tree7
+Success: 65 was inserted into the tree3
+Success: 65 was inserted into the tree7
+Success: 37 was inserted into the tree3
+Success: 37 was inserted into the tree7
+Success: 60 was inserted into the tree3
+Success: 60 was inserted into the tree7
+37,23,37,60,65,
+Success: 46 was inserted into the tree3
+Success: 46 was inserted into the tree7
+Success: 92 was inserted into the tree3
+Success: 92 was inserted into the tree7
+37,60,23,37,46,60,65,92,
+Success: 48 was inserted into the tree3
+Success: 48 was inserted into the tree7
+Success: 71 was inserted into the tree3
+Success: 71 was inserted into the tree7
+Success: 56 was inserted into the tree3
+Success: 56 was inserted into the tree7
+Success: 59 was inserted into the tree3
+Success: 59 was inserted into the tree7
+48,60,37,23,37,46,48,56,59,59,56,59,60,65,71,71,65,71,92,
+Success: 50 was inserted into the tree3
+Success: 50 was inserted into the tree7
+Success: 90 was inserted into the tree3
+Success: 90 was inserted into the tree7
+Success: 30 was inserted into the tree3
+Success: 30 was inserted into the tree7
+Success: 40 was inserted into the tree3
+Success: 40 was inserted into the tree7
+48,37,30,23,30,37,40,46,46,40,46,48,56,59,50,56,59,60,60,56,59,50,56,59,60,71,65,71,90,92,
+Error: attempt to delete a value not found in the tree3 of 98
+Error: attempt to delete a value not found in the tree7 of 98
+Success: 50 was removed from the tree3
+Success: 50 was removed from the tree7
+Success: 56 was removed from the tree3
+Success: 56 was removed from the tree7
+48,37,30,23,30,37,40,46,46,40,46,48,59,56,59,60,60,60,59,56,59,60,60,71,65,71,90,92,
+Success: 59 was removed from the tree3
+Success: 59 was removed from the tree7
+Success: 40 was removed from the tree3
+Success: 40 was removed from the tree7
+Success: 46 was removed from the tree3
+Error: attempt to delete a value not found in the tree7 of 46
+Success: 48 was removed from the tree3
+Success: 48 was removed from the tree7
+Success: 60 was removed from the tree3
+Success: 60 was removed from the tree7
+Success: 23 was removed from the tree3
+Success: 23 was removed from the tree7
+Success: 30 was removed from the tree3
+Success: 30 was removed from the tree7
+Success: 37 was removed from the tree3
+Success: 37 was removed from the tree7
+60,37,48,30,46,56,59,71,65,71,90,92,71,65,71,90,92,
+Success: 92 was removed from the tree3
+Success: 92 was removed from the tree7
+60,37,48,30,46,56,59,71,65,71,90,71,65,71,90,
+Success: 90 was removed from the tree3
+Success: 90 was removed from the tree7
+Success: 65 was removed from the tree3
+Success: 65 was removed from the tree7
+Success: 71 was removed from the tree3
+Success: 71 was removed from the tree7
+48,37,30,46,56,59,60,56,59,71,60,56,59,71,
+
+
+Success: 23 was inserted into the tree3
+Success: 23 was inserted into the tree7
+Success: 65 was inserted into the tree3
+Success: 65 was inserted into the tree7
+Success: 37 was inserted into the tree3
+Success: 37 was inserted into the tree7
+Success: 60 was inserted into the tree3
+Success: 60 was inserted into the tree7
+37,23,37,60,65,
+23,37,60,65,
+Success: 46 was inserted into the tree3
+Success: 46 was inserted into the tree7
+Success: 92 was inserted into the tree3
+Success: 92 was inserted into the tree7
+37,60,23,37,46,60,65,92,
+23,37,46,60,65,92,
+Success: 48 was inserted into the tree3
+Success: 48 was inserted into the tree7
+Success: 71 was inserted into the tree3
+Success: 71 was inserted into the tree7
+Success: 56 was inserted into the tree3
+Success: 56 was inserted into the tree7
+Success: 59 was inserted into the tree3
+Success: 59 was inserted into the tree7
+48,60,37,23,37,46,48,56,59,59,56,59,60,65,71,71,65,71,92,
+48,23,37,46,48,56,59,60,65,71,92,
+Success: 50 was inserted into the tree3
+Success: 50 was inserted into the tree7
+Success: 90 was inserted into the tree3
+Success: 90 was inserted into the tree7
+Success: 30 was inserted into the tree3
+Success: 30 was inserted into the tree7
+Success: 40 was inserted into the tree3
+Success: 40 was inserted into the tree7
+48,37,30,23,30,37,40,46,46,40,46,48,56,59,50,56,59,60,60,56,59,50,56,59,60,71,65,71,90,92,
+48,60,23,30,37,40,46,48,50,56,59,60,65,71,90,92,
+Error: attempt to delete a value not found in the tree3 of 98
+Error: attempt to delete a value not found in the tree7 of 98
+Success: 50 was removed from the tree3
+Success: 50 was removed from the tree7
+Success: 56 was removed from the tree3
+Success: 56 was removed from the tree7
+48,37,30,23,30,37,40,46,46,40,46,48,59,56,59,60,60,60,59,56,59,60,60,71,65,71,90,92,
+48,60,23,30,37,40,46,48,59,60,65,71,90,92,
+Success: 59 was removed from the tree3
+Success: 59 was removed from the tree7
+Success: 40 was removed from the tree3
+Success: 40 was removed from the tree7
+Success: 46 was removed from the tree3
+Error: attempt to delete a value not found in the tree7 of 46
+Success: 48 was removed from the tree3
+Success: 48 was removed from the tree7
+Success: 60 was removed from the tree3
+Success: 60 was removed from the tree7
+Success: 23 was removed from the tree3
+Success: 23 was removed from the tree7
+Success: 30 was removed from the tree3
+Success: 30 was removed from the tree7
+Success: 37 was removed from the tree3
+Success: 37 was removed from the tree7
+60,37,48,30,46,56,59,71,65,71,90,92,71,65,71,90,92,
+65,46,48,60,71,90,92,71,90,92,
+Success: 92 was removed from the tree3
+Success: 92 was removed from the tree7
+60,37,48,30,46,56,59,71,65,71,90,71,65,71,90,
+46,48,60,65,71,90,
+Success: 90 was removed from the tree3
+Success: 90 was removed from the tree7
+Success: 65 was removed from the tree3
+Success: 65 was removed from the tree7
+Success: 71 was removed from the tree3
+Success: 71 was removed from the tree7
+48,37,30,46,56,59,60,56,59,71,60,56,59,71,
+46,48,60,
+
+
+Success: 23 was inserted into the tree3
+Success: 23 was inserted into the tree7
+Success: 65 was inserted into the tree3
+Success: 65 was inserted into the tree7
+Error: attempt to insert duplicate value of 37
+Error: attempt to insert duplicate value of 37
+Error: attempt to insert duplicate value of 60
+Error: attempt to insert duplicate value of 60
+65,23,
+65,23,
+Error: attempt to insert duplicate value of 46
+Error: attempt to insert duplicate value of 46
+Success: 92 was inserted into the tree3
+Success: 92 was inserted into the tree7
+65,92,65,23,
+92,65,23,
+Error: attempt to insert duplicate value of 48
+Error: attempt to insert duplicate value of 48
+Error: attempt to insert duplicate value of 71
+Error: attempt to insert duplicate value of 71
+Error: attempt to insert duplicate value of 56
+Error: attempt to insert duplicate value of 56
+Error: attempt to insert duplicate value of 59
+Error: attempt to insert duplicate value of 59
+65,92,65,23,
+92,65,23,
+Error: attempt to insert duplicate value of 50
+Error: attempt to insert duplicate value of 50
+Error: attempt to insert duplicate value of 90
+Error: attempt to insert duplicate value of 90
+Error: attempt to insert duplicate value of 30
+Error: attempt to insert duplicate value of 30
+Error: attempt to insert duplicate value of 40
+Error: attempt to insert duplicate value of 40
+65,92,65,23,
+92,65,23,
+Error: attempt to delete a value not found in the tree3 of 98
+Error: attempt to delete a value not found in the tree7 of 98
+Success: 50 was removed from the tree3
+Success: 50 was removed from the tree7
+Success: 56 was removed from the tree3
+Success: 56 was removed from the tree7
+65,23,
+23,
+Success: 59 was removed from the tree3
+Error: attempt to delete a value not found in the tree7 of 59
+Error: attempt to delete a value not found in the tree3 of 40
+Error: attempt to delete a value not found in the tree7 of 40
+Error: attempt to delete a value not found in the tree3 of 46
+Error: attempt to delete a value not found in the tree7 of 46
+Error: attempt to delete a value not found in the tree3 of 48
+Error: attempt to delete a value not found in the tree7 of 48
+Error: attempt to delete a value not found in the tree3 of 60
+Error: attempt to delete a value not found in the tree7 of 60
+Success: 23 was removed from the tree3
+Success: 23 was removed from the tree7
+Error: attempt to delete a value not found in the tree3 of 30
+Error: attempt to delete a value not found in the tree7 of 30
+Error: attempt to delete a value not found in the tree3 of 37
+Error: attempt to delete a value not found in the tree7 of 37
+
+
+Error: attempt to delete a value not found in the tree3 of 92
+Error: attempt to delete a value not found in the tree7 of 92
+
+
+Error: attempt to delete a value not found in the tree3 of 90
+Error: attempt to delete a value not found in the tree7 of 90
+Error: attempt to delete a value not found in the tree3 of 65
+Error: attempt to delete a value not found in the tree7 of 65
+Error: attempt to delete a value not found in the tree3 of 71
+Error: attempt to delete a value not found in the tree7 of 71
+
+
+
+
+Success: 23 was inserted into the tree3
+Success: 23 was inserted into the tree7
+Success: 65 was inserted into the tree3
+Success: 65 was inserted into the tree7
+Error: attempt to insert duplicate value of 37
+Error: attempt to insert duplicate value of 37
+Error: attempt to insert duplicate value of 60
+Error: attempt to insert duplicate value of 60
+65,23,
+65,23,
+Error: attempt to insert duplicate value of 46
+Error: attempt to insert duplicate value of 46
+Success: 92 was inserted into the tree3
+Success: 92 was inserted into the tree7
+65,92,65,23,
+92,65,23,
+Error: attempt to insert duplicate value of 48
+Error: attempt to insert duplicate value of 48
+Error: attempt to insert duplicate value of 71
+Error: attempt to insert duplicate value of 71
+Error: attempt to insert duplicate value of 56
+Error: attempt to insert duplicate value of 56
+Error: attempt to insert duplicate value of 59
+Error: attempt to insert duplicate value of 59
+65,92,65,23,
+92,65,23,
+Error: attempt to insert duplicate value of 50
+Error: attempt to insert duplicate value of 50
+Error: attempt to insert duplicate value of 90
+Error: attempt to insert duplicate value of 90
+Error: attempt to insert duplicate value of 30
+Error: attempt to insert duplicate value of 30
+Error: attempt to insert duplicate value of 40
+Error: attempt to insert duplicate value of 40
+65,92,65,23,
+92,65,23,
+Error: attempt to delete a value not found in the tree3 of 98
+Error: attempt to delete a value not found in the tree7 of 98
+Success: 50 was removed from the tree3
+Success: 50 was removed from the tree7
+Success: 56 was removed from the tree3
+Success: 56 was removed from the tree7
+65,23,
+23,
+Success: 59 was removed from the tree3
+Error: attempt to delete a value not found in the tree7 of 59
+Error: attempt to delete a value not found in the tree3 of 40
+Error: attempt to delete a value not found in the tree7 of 40
+Error: attempt to delete a value not found in the tree3 of 46
+Error: attempt to delete a value not found in the tree7 of 46
+Error: attempt to delete a value not found in the tree3 of 48
+Error: attempt to delete a value not found in the tree7 of 48
+Error: attempt to delete a value not found in the tree3 of 60
+Error: attempt to delete a value not found in the tree7 of 60
+Success: 23 was removed from the tree3
+Success: 23 was removed from the tree7
+Error: attempt to delete a value not found in the tree3 of 30
+Error: attempt to delete a value not found in the tree7 of 30
+Error: attempt to delete a value not found in the tree3 of 37
+Error: attempt to delete a value not found in the tree7 of 37
+
+
+Error: attempt to delete a value not found in the tree3 of 92
+Error: attempt to delete a value not found in the tree7 of 92
+
+
+Error: attempt to delete a value not found in the tree3 of 90
+Error: attempt to delete a value not found in the tree7 of 90
+Error: attempt to delete a value not found in the tree3 of 65
+Error: attempt to delete a value not found in the tree7 of 65
+Error: attempt to delete a value not found in the tree3 of 71
+Error: attempt to delete a value not found in the tree7 of 71
+
+
+
+
+Success: 23 was inserted into the tree3
+Success: 23 was inserted into the tree7
+Success: 65 was inserted into the tree3
+Success: 65 was inserted into the tree7
+Error: attempt to insert duplicate value of 37
+Error: attempt to insert duplicate value of 37
+Error: attempt to insert duplicate value of 60
+Error: attempt to insert duplicate value of 60
+65,23,
+65,23,
+Error: attempt to insert duplicate value of 46
+Error: attempt to insert duplicate value of 46
+Success: 92 was inserted into the tree3
+Success: 92 was inserted into the tree7
+65,92,65,23,
+92,65,23,
+Error: attempt to insert duplicate value of 48
+Error: attempt to insert duplicate value of 48
+Error: attempt to insert duplicate value of 71
+Error: attempt to insert duplicate value of 71
+Error: attempt to insert duplicate value of 56
+Error: attempt to insert duplicate value of 56
+Error: attempt to insert duplicate value of 59
+Error: attempt to insert duplicate value of 59
+65,92,65,23,
+92,65,23,
+Error: attempt to insert duplicate value of 50
+Error: attempt to insert duplicate value of 50
+Error: attempt to insert duplicate value of 90
+Error: attempt to insert duplicate value of 90
+Error: attempt to insert duplicate value of 30
+Error: attempt to insert duplicate value of 30
+Error: attempt to insert duplicate value of 40
+Error: attempt to insert duplicate value of 40
+65,92,65,23,
+92,65,23,
+Error: attempt to delete a value not found in the tree3 of 98
+Error: attempt to delete a value not found in the tree7 of 98
+Success: 50 was removed from the tree3
+Success: 50 was removed from the tree7
+Success: 56 was removed from the tree3
+Success: 56 was removed from the tree7
+65,23,
+23,
+Success: 59 was removed from the tree3
+Error: attempt to delete a value not found in the tree7 of 59
+Error: attempt to delete a value not found in the tree3 of 40
+Error: attempt to delete a value not found in the tree7 of 40
+Error: attempt to delete a value not found in the tree3 of 46
+Error: attempt to delete a value not found in the tree7 of 46
+Error: attempt to delete a value not found in the tree3 of 48
+Error: attempt to delete a value not found in the tree7 of 48
+Error: attempt to delete a value not found in the tree3 of 60
+Error: attempt to delete a value not found in the tree7 of 60
+Success: 23 was removed from the tree3
+Success: 23 was removed from the tree7
+Error: attempt to delete a value not found in the tree3 of 30
+Error: attempt to delete a value not found in the tree7 of 30
+Error: attempt to delete a value not found in the tree3 of 37
+Error: attempt to delete a value not found in the tree7 of 37
+
+
+Error: attempt to delete a value not found in the tree3 of 92
+Error: attempt to delete a value not found in the tree7 of 92
+
+
+Error: attempt to delete a value not found in the tree3 of 90
+Error: attempt to delete a value not found in the tree7 of 90
+Error: attempt to delete a value not found in the tree3 of 65
+Error: attempt to delete a value not found in the tree7 of 65
+Error: attempt to delete a value not found in the tree3 of 71
+Error: attempt to delete a value not found in the tree7 of 71
+
+
